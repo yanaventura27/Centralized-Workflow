@@ -110,3 +110,20 @@ table.admin td {
 	border: 1px solid #7ace6c;
 	font-size:90%;
 }
+//canvas
+#canvas-holder{
+	width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    align:center;
+}
+#canvas{
+	width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+#objects{
+	
+}
