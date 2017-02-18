@@ -87,7 +87,6 @@ echo "
 <div id='wrapper'>
 <div id='top'>Central Workflow System</div>
 <div id='content'>
-<h2>Login</h2>
 <div id='left-nav'>";
 
 include("left-nav.php");
