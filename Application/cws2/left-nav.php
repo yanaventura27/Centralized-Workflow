@@ -10,9 +10,11 @@ if (!securePage($_SERVER['PHP_SELF'])){die();}
 if(isUserLoggedIn()) {
 	echo "
 	<ul>
-	<li><a href='account.php'>Account Home</a></li>
+	<li><a href='account.php'>Home</a></li>
 	<li><a href='user_settings.php'>User Settings</a></li>
-	<li><a href='logout.php'>Logout</a></li>
+	<li><a href='create_form.php'>Create Form</a></li>
+	<li><a href='get_form.php'>Get Form</a></li>
+	<li><a href='notifs.php'>Notifications</a></li>
 	</ul>";
 	
 	//Links for permission level 2 (default admin)
