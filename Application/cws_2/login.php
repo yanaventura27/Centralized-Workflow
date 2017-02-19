@@ -85,9 +85,10 @@ require_once("models/header.php");
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'>Central Workflow System
-<p style='font-size:30px'>Login</p></div></div>
+<div id='top'><div id='logo'></div></div>
 <div id='content'>
+<h1>UserCake</h1>
+<h2>Login</h2>
 <div id='left-nav'>";
 
 include("left-nav.php");
@@ -122,4 +123,3 @@ echo "
 </html>";
 
 ?>
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
