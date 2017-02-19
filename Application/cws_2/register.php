@@ -84,10 +84,8 @@ require_once("models/header.php");
 echo "
 <body>
 <div id='wrapper'>
-<div id='top'><div id='logo'></div></div>
+<div id='top'>Central Workflow System</div>
 <div id='content'>
-<h1>UserCake</h1>
-<h2>Register</h2>
 
 <div id='left-nav'>";
 include("left-nav.php");
@@ -110,7 +108,7 @@ echo "
 <label>Display Name:</label>
 <input type='text' name='displayname' />
 </p>
-<p>
+<p><br>
 <label>Password:</label>
 <input type='password' name='password' />
 </p>
@@ -142,3 +140,4 @@ echo "
 </body>
 </html>";
 ?>
+ <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />

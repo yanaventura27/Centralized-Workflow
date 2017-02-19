@@ -11,6 +11,9 @@ if(isUserLoggedIn()) {
 	echo "
 	<ul>
 	<li><a href='account.php'>Account Home</a></li>
+	<li><a href='create_form.php'>Create Forms</a></li>
+	<li><a href='form.php'>Forms</a></li>
+	<li><a href='notification.php'>Notifications</a></li>
 	<li><a href='user_settings.php'>User Settings</a></li>
 	<li><a href='logout.php'>Logout</a></li>
 	</ul>";

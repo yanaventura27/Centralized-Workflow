@@ -1,8 +1,8 @@
 html, body {
 	margin: 0px;
-	background: #fff;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:0.95em;
+	background: #B3B3B3;
+	font-family:Raleway, Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
 	color:#4d4948;
 }
 
@@ -33,35 +33,39 @@ a {
 #top {
 	margin: 0 auto 0 auto;
 	background:url('images/top-bg.jpg') repeat-x;
+	font-family: Raleway;
+	text-align: center;
+	font-size: 500%;
 	width:100%;
-	height:115px;
+	height:25%;
 }
 
-#logo {
-	margin: 0 auto 0 auto;
-	background:url('images/latest-build.gif');
-	width: 155px;
-	height: 124px;
-}
 
 #content {
 	margin: 0 auto 0 auto;
-	width: 95%;
+	width: 100%;
 }
 
-#content #left-nav {
+
+#left-nav {
 	width:15%;
+	height:200%;
 	float:left;
 	font-size:95%;
+	background:url('images/top-bg.jpg') repeat-x;
+	font-family: Raleway;
+	font-size: 20px;
+
 }
 
 #content #left-nav ul {
-	padding:0 0 50px 0;
-	margin:0;
+	padding:0 0 0 0;
+	margin:10;
+	background:url('images/top-bg.jpg') repeat-x;
 }
 
 #content #left-nav ul li {
-	padding:0;
+	padding:2.5px;
 	margin:0;
 	list-style:none;
 }
@@ -70,9 +74,10 @@ a {
 	text-decoration:none;
 }
 
-#content #left-nav ul li a:hover {
-	color:#ff0505;
-	text-decoration:underline;
+#content #left-nav ul li:hover {
+	border-style: solid;
+	border-color: #B3B3B3;
+	border-width: 2px;
 }
 
 #content #main {

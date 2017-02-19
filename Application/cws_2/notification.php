@@ -14,13 +14,12 @@ echo "
 <div id='top'>Central Workflow System</div>
 <div id='content'>
 <div id='left-nav'>";
-
 include("left-nav.php");
 
 echo "
 </div>
 <div id='main'>
-Hey, $loggedInUser->displayname. This is an example secure page designed to demonstrate some of the basic features of UserCake. Just so you know, your title at the moment is $loggedInUser->title, and that can be changed in the admin panel. You registered this account on " . date("M d, Y", $loggedInUser->signupTimeStamp()) . ".
+Notifications:
 </div>
 <div id='bottom'></div>
 </div>
@@ -28,5 +27,4 @@ Hey, $loggedInUser->displayname. This is an example secure page designed to demo
 </html>";
 
 ?>
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-
+ <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
